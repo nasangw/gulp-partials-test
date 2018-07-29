@@ -1,0 +1,38 @@
+{
+  "name": "dungeonMap",
+  "version": "1.0.0",
+  "description": "develop for dungeonMap",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasangw/dungeon-map.git"
+  },
+  "browserslist": [
+    "IE >= 10",
+    "last 2 versions"
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "IE >= 10"
+          ]
+        }
+      }
+    ]
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-partials-imported": "^1.0.6"
+  }
+}
